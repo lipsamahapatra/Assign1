@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Assign1</string>
+    <string-array name="titles">
+        <item>brother</item>
+        <item>cousin</item>
+        <item>daddy</item>
+        <item>mother</item>
+        <item>sister</item>
+    </string-array>
+    <string-array name="description">
+        <item>jubul</item>
+        <item>ria</item>
+        <item>manoranjan</item>
+        <item>kalpana</item>
+        <item>ridhima</item>
+    </string-array>
+</resources>
