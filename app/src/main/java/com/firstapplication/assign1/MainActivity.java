@@ -15,12 +15,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Resources res=getResources();
-        titles=res.getStringArray(R.array.titles);
+Resources res=getResources();
+titles=res.getStringArray(R.array.titles);
 
         description=res.getStringArray(R.array.description);
         list= (ListView) findViewById(R.id.listView);
         VivzAdapter adapter=new VivzAdapter(this,titles,images,description);
         list.setAdapter(adapter);
-    }
-}
+        }
+        }
